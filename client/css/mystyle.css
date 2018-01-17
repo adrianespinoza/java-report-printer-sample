@@ -1,0 +1,248 @@
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 10px;
+}
+
+h5 {
+    font-size: 8px;
+}
+
+h6 {
+    font-size: 5px;
+}
+
+hr {
+    background: #317eac;
+}
+
+h4, .h4 {
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: small;
+}
+
+label, strong {
+    color: #000000;
+    font-weight: lighter;
+}
+
+.divider {
+    border-bottom: 1px dotted #ddd;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 2px 20px 20px 20px;
+}
+
+table {
+    width: 98%;
+    margin: 60px;
+    border-collapse: collapse;
+    border: 1px solid #D9EDF7;
+}
+
+th {
+    background-color: #F1F1F1;
+    border: 1px solid #F5F5F5;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid #D9EDF7;
+    min-width: 5%;
+    padding: 5px;
+}
+
+.new-node-header {
+    background-color: #F1F1F1;
+    border: 1px solid #D9EDF7;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.printing-under-construction {
+    background: #CE9C38;
+    color: #000000;
+    padding: 25px;
+    text-align: center;
+}
+
+.checklist-subform {
+    margin: 1px 2px 3px 15px;
+}
+
+.checklist-section {
+    margin: 1px 2px 3px 30px;
+}
+
+.table-tracking {
+    font-size: 8px;
+}
+
+.table-tracking table {
+    width: 50%;
+    margin: 2px;
+    border-collapse: collapse;
+    border: 1px solid #D9EDF7;
+}
+
+.table-tracking th {
+    font-size: 8px;
+    background-color: #F1F1F1;
+    border: 1px solid #F5F5F5;
+    padding: 2px;
+
+}
+
+.table-tracking td {
+    font-size: 8px;
+    padding: 2px;
+}
+
+.table-tracking-single {
+    font-size: 8px;
+}
+
+.table-tracking-single table {
+    width: 30%;
+    margin: 2px;
+    border-collapse: initial;
+    border: 0px solid #ffffff;
+}
+
+.table-tracking-single td {
+    font-size: 8px;
+    padding: 2px;
+    border: 0px solid #ffffff;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px solid #FFFFFF;
+    text-align: left;
+    margin: 20px;
+}
+
+.form-table td {
+    border: 0px solid #FFFFFF;
+}
+
+.form-table .label {
+    color: #000000;
+    font-weight: bold;
+    width: 30%;
+}
+
+.form-table .labelQuestion {
+    color: #000000;
+    font-weight: bold;
+    width: 65%;
+}
+
+/* add Class for tables with data in printing*/
+
+.data-table {
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+    border: 1px solid #F1F1F1;
+
+}
+
+.data-table thead th {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    border:1px solid #F1F1F1;
+}
+
+.data-table td {
+    color: #000000;
+    border:1px solid #F1F1F1;
+}
+
+/*add class for question and answer */
+
+.data-question {
+    margin: 5px 0px 20px 0px;
+    text-align: justify;
+}
+
+.data-answer {
+    margin: 10px 0px 20px 0px;
+    text-align: left;
+    padding: -5px 0px 0px 10px;
+}
+
+.data-textDescription {
+    margin: 10px 0px 10px 0px;
+    text-align: justify;
+}
+
+.data-section {
+    text-align: left;
+    padding: 0px 0px 0px 15px;
+}
+
+.form-table-question {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px solid #FFFFFF;
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+}
+
+.form-table-question td {
+    border: 0px solid #FFFFFF;
+    padding-left: 20px;
+}
+
+.form-table-question .labelQuestion {
+    color: #000000;
+    text-align: justify;
+    padding-left: 0px;
+    text-align: left;
+    width: 80%;
+}
+
+.form-table .label-width-40 {
+    width: 40%;
+}
+
+.labelCheck{
+    text-align: center; color: #66cc33 !important; font-weight: bold;
+}
+.labelCross{
+    text-align: center; color: red !important; font-weight: bold;
+}
